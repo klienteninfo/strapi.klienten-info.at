@@ -14059,11 +14059,6 @@ is-wsl@^2.1.1, is-wsl@^2.2.0:
   dependencies:
     is-docker "^2.0.0"
 
-is_js@^0.9.0:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/is_js/-/is_js-0.9.0.tgz#0ab94540502ba7afa24c856aa985561669e9c52d"
-  integrity sha512-8Y5EHSH+TonfUHX2g3pMJljdbGavg55q4jmHzghJCdqYDbdNROC8uw/YFQwIRCRqRJT1EY3pJefz+kglw+o7sg==
-
 isarray@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/isarray/-/isarray-0.0.1.tgz#8a18acfca9a8f4177e09abfc6038939b05d1eedf"
@@ -15106,14 +15101,14 @@ koa-helmet@6.1.0:
   dependencies:
     helmet "^4.4.1"
 
-koa-ip@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/koa-ip/-/koa-ip-2.1.2.tgz#a7e64c3f8c0e6736565b8bc1229993c0b711788e"
-  integrity sha512-U9w+WkasaIeHRrPfAp/J7UsGCqdCOeavetq6ASMjXUvMmEboKAWGFUlt0c2QU3z6F6Q5NJloh8IwkgWzoaJ8Tg==
+koa-ip@^2.1.3:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/koa-ip/-/koa-ip-2.1.3.tgz#b7318bb30fd1e06d03a96beb704ee72cc6ecade0"
+  integrity sha512-QLVBByImwDq9enZXVOD3Astk876B7N0IYta7Kik4iyNB462rVzBB1/LD0Ek1F+v9nGUTHBFyhh8043EIlskK9Q==
   dependencies:
     debug "4.3.4"
     lodash.isplainobject "4.0.6"
-    request-ip "2.1.3"
+    request-ip "3.3.0"
 
 koa-is-json@^1.0.0:
   version "1.0.0"
@@ -19478,12 +19473,10 @@ request-compose@^2.1.4:
   resolved "https://registry.yarnpkg.com/request-compose/-/request-compose-2.1.5.tgz#10c99ae13aa21ddddf3b4baf8841cc3599ebe3e2"
   integrity sha512-qfnt6TMfss3SKYt/l0QipIjPYV46DlQwIckP6t4TaR3Cs/11nsmkbIUAbm13kvqhNqb5RHxbMordHzS6AezHvQ==
 
-request-ip@2.1.3:
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/request-ip/-/request-ip-2.1.3.tgz#99ab2bafdeaf2002626e28083cb10597511d9e14"
-  integrity sha512-J3qdE/IhVM3BXkwMIVO4yFrvhJlU3H7JH16+6yHucadT4fePnR8dyh+vEs6FIx0S2x5TCt2ptiPfHcn0sqhbYQ==
-  dependencies:
-    is_js "^0.9.0"
+request-ip@3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/request-ip/-/request-ip-3.3.0.tgz#863451e8fec03847d44f223e30a5d63e369fa611"
+  integrity sha512-cA6Xh6e0fDBBBwH77SLJaJPBmD3nWVAcF9/XAcsrIHdjhFzFiB5aNQFytdjCGPezU3ROwrR11IddKAM08vohxA==
 
 request-multipart@^1.0.0:
   version "1.0.0"
