@@ -27,7 +27,7 @@
     "test:front:watch:ce": "cross-env IS_EE=false jest --config ./jest.config.front.js --watchAll"
   },
   "dependencies": {
-    "@sindresorhus/slugify": "1.1.0",
+    "@sindresorhus/slugify": "1.1.2",
     "@strapi/design-system": "1.6.5",
     "@strapi/generators": "4.8.1",
     "@strapi/helper-plugin": "4.8.1",
